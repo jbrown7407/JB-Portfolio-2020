@@ -6,15 +6,14 @@ img {
   width: 150px;
 }
 .displayBox {
-  border: 1px solid black;
+  border: 2px solid black;
   box-shadow: 5px 10px 8px #888888;
   width: 200px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .myphoto {
   margin: 0 auto;
