@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.myphoto {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  display: block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.mySideName {
+  margin: 0 auto;
+  text-align: center;
+}
+.banner {
+  color: black;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: black;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+button {
+  background-color: black;
+  color: white;
+  display: block;
+  width: 100%;
+  font-size: 24px;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    width: 90px;
+    font-size: 18px;
+  }
+  .myphoto {
+    display: none;
+  }
+  .mySideName {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .myphoto {
+    display: none;
+  }
+  .mySideName {
+    display: none;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    display: inline;
+    width: 50px;
+    font-size: 24px;
+  }
+}
