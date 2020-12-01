@@ -28,43 +28,43 @@ $(document).ready(function () {
   // replace this with react router
   $(".btn1").click(function btn1() {
     $(".home").fadeIn(100).show();
-    $(".about").hide();
-    $(".resume").hide();
+    $($about).hide();
+    $($resume).hide();
     $(".projects").hide();
-    $(".contact").hide();
-    console.log("btn1");
+    $($contact).hide();
+    cl("btn1");
   });
   $(".btn2").click(function btn2() {
     $(".home").hide();
-    $(".about").fadeIn(100).show();
-    $(".resume").hide();
-    $(".projects").hide();
-    $(".contact").hide();
-    console.log("btn2");
+    $($about).fadeIn(100).show();
+    $($resume).hide();
+    $($projects).hide();
+    $($contact).hide();
+    cl("btn2");
   });
   $(".btn3").click(function btn3() {
     $(".home").hide();
-    $(".about").hide();
-    $(".resume").fadeIn(100).show();
-    $(".projects").hide();
-    $(".contact").hide();
-    console.log("btn3");
+    $($about).hide();
+    $($resume).fadeIn(100).show();
+    $($projects).hide();
+    $($contact).hide();
+    cl("btn3");
   });
   $(".btn4").click(function btn4() {
     $(".home").hide();
-    $(".about").hide();
-    $(".resume").hide();
+    $($about).hide();
+    $($resume).hide();
     $(".projects").fadeIn(100).show();
-    $(".contact").hide();
-    console.log("btn4");
+    $($contact).hide();
+    //projects
+    cl("btn4");
   });
   $(".btn5").click(function btn5() {
     $(".home").hide();
-    $(".about").hide();
-    $(".resume").hide();
-    $(".projects").hide();
-    $(".contact").fadeIn(700).show();
-
-    console.log("btn4");
+    $($about).hide();
+    $($resume).hide();
+    $($projects).hide();
+    $($contact).fadeIn(100).show();
+    cl("btn5");
   });
 });
