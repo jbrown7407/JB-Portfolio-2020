@@ -27,7 +27,6 @@ $(document).ready(function () {
 
   // replace this with react router
   $(".btn1").click(function btn1() {
-    //TITLE SCREEN
     $(".home").fadeIn(100).show();
     $(".about").hide();
     $(".resume").hide();
@@ -36,7 +35,6 @@ $(document).ready(function () {
     console.log("btn1");
   });
   $(".btn2").click(function btn2() {
-    //Game Scene 1
     $(".home").hide();
     $(".about").fadeIn(100).show();
     $(".resume").hide();
@@ -45,7 +43,6 @@ $(document).ready(function () {
     console.log("btn2");
   });
   $(".btn3").click(function btn3() {
-    //Game Scene 2
     $(".home").hide();
     $(".about").hide();
     $(".resume").fadeIn(100).show();
@@ -54,7 +51,6 @@ $(document).ready(function () {
     console.log("btn3");
   });
   $(".btn4").click(function btn4() {
-    //Game Over Scene
     $(".home").hide();
     $(".about").hide();
     $(".resume").hide();
@@ -63,7 +59,6 @@ $(document).ready(function () {
     console.log("btn4");
   });
   $(".btn5").click(function btn5() {
-    //Game Over Scene
     $(".home").hide();
     $(".about").hide();
     $(".resume").hide();
