@@ -202,13 +202,3 @@ div.content {
   color:black;
   font-size: 24px;
 }
-
-.gridC {
-  display: grid;
-  max-width: 90%;
-            margin: 1rem auto;
-            border: 1px solid red;
-            grid-template-areas: "A A B B C C"
-                                "D D D E E E";
-            grid-column-gap: 2rem;
-}
