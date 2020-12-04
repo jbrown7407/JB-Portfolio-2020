@@ -180,3 +180,8 @@ div.content {
     font-size: 18px;
   }
 }
+
+#firstText {
+  color:black;
+  font-size: 24px;
+}

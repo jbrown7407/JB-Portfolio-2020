@@ -1,7 +1,22 @@
+
+
 $(document).ready(function () {
+  //typewriter effect
   let cl = (value) => console.log(value);
   cl("Jquery Active");
+  var i = 0;
+  var txt = 'Hello. I am Jeffrey Brown. I am a developer with a passion for efficient design. ';
+  var speed = 30;
+  
+  function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("firstText").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
 
+  }
+  typeWriter()
   // const $div = $('<div>')
   // $($div).addClass('title')
   // $('body').append($div)
