@@ -5,7 +5,7 @@ $(document).ready(function () {
   let cl = (value) => console.log(value);
   cl("Jquery Active");
   var i = 0;
-  var txt = 'Hello. I am Jeffrey Brown. I am a developer with a passion for efficient design. ';
+  var txt = 'Hello, I am Jeffrey Brown. I design and create efficient software and websites for modern business needs. ';
   var speed = 30;
   
   function typeWriter() {
@@ -16,7 +16,7 @@ $(document).ready(function () {
     }
 
   }
-  typeWriter()
+
   // const $div = $('<div>')
   // $($div).addClass('title')
   // $('body').append($div)
@@ -30,19 +30,22 @@ $(document).ready(function () {
   const $projects = document.getElementsByClassName("projects");
   const $contact = document.getElementsByClassName("contact");
 
+ 
   $($about).hide(); //HIDE ENTIRE DIV
   $($resume).hide();
   $($projects).hide();
-  $($contact).hide();
+  $($contact).hide().delay(200)
+ 
 
+  $($home).show()
   //event.currentTarget TARGET SPECIFIC ELEMENT!!!
   // $( "p" ).click(function( event ) {
   //   alert( event.currentTarget === this ); // true
   // });
-
+  typeWriter()
   // replace this with react router
   $(".btn1").click(function btn1() {
-    $(".home").fadeIn(100).show();
+    $(".home").show();
     $($about).hide();
     $($resume).hide();
     $(".projects").hide();
@@ -51,7 +54,7 @@ $(document).ready(function () {
   });
   $(".btn2").click(function btn2() {
     $(".home").hide();
-    $($about).fadeIn(100).show();
+    $($about).show();
     $($resume).hide();
     $($projects).hide();
     $($contact).hide();
@@ -60,7 +63,7 @@ $(document).ready(function () {
   $(".btn3").click(function btn3() {
     $(".home").hide();
     $($about).hide();
-    $($resume).fadeIn(100).show();
+    $($resume).show();
     $($projects).hide();
     $($contact).hide();
     cl("btn3");
@@ -69,7 +72,7 @@ $(document).ready(function () {
     $(".home").hide();
     $($about).hide();
     $($resume).hide();
-    $(".projects").fadeIn(100).show();
+    $(".projects").show();
     $($contact).hide();
     //projects
     cl("btn4");
@@ -79,7 +82,7 @@ $(document).ready(function () {
     $($about).hide();
     $($resume).hide();
     $($projects).hide();
-    $($contact).fadeIn(100).show();
+    $($contact).show();
     cl("btn5");
   });
 });
