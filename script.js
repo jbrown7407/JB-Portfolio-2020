@@ -3,6 +3,7 @@
 $(document).ready(function () {
   //typewriter effect
   let cl = (value) => console.log(value);
+  let isAlive =true
   cl("Jquery Active");
   var i = 0;
   var txt = 'Hello, I am Jeffrey Brown. I design and create efficient software and websites for modern business needs. ';
@@ -16,12 +17,6 @@ $(document).ready(function () {
     }
 
   }
-
-  // const $div = $('<div>')
-  // $($div).addClass('title')
-  // $('body').append($div)
-  // $($div).text("Div Example")
-  // $($div).style.color("blue")
 
   const $tellplayer = document.getElementById("tellPlayer");
   const $about = document.getElementsByClassName("about");
