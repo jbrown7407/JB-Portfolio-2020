@@ -49,6 +49,12 @@ i {
   -o-border-radius: 50%;
   padding: 5px;
   margin: 5px;
+  float: right;
+  display:flex;
+  margin: 0 auto;
+  padding: 5px;
+  margin-bottom: 5px;
+  
 }
 i:hover {
   color:blue;
@@ -162,12 +168,11 @@ div.content {
     margin-left: 0;
   }
 
-  button {
-    background-color: black;
+  .button {
+    background-color: blue;
     color: white;
-    display: inline-flex;
-    width: 90px;
-    font-size: 18px;
+    display: inline;
+ 
   }
   .myphoto {
     display: none;
@@ -179,8 +184,13 @@ div.content {
 
 @media screen and (max-width: 400px) {
   .sidebar a {
-    text-align: center;
-    float: none;
+    background-color: blue;;
+    color: white;
+    display: block;
+    width: 20px;
+    height: 25px;
+    font-size: 8px;
+    padding: 0px;
   }
   .myphoto {
     display: none;
@@ -190,15 +200,38 @@ div.content {
   }
 
   button {
-    background-color: black;
+    background-color: blue;;
     color: white;
-    display: inline;
-    width: 50px;
-    font-size: 18px;
-  }
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    font-size: 8px;
+    padding: 0px;
+    
+   
+  } 
 }
 
 #firstText {
   color:black;
   font-size: 24px;
+}
+.buttons {
+  color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.gridC {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 2px 4px #b4b4b4;
 }
