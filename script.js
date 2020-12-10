@@ -9,6 +9,9 @@ $(document).ready(function () {
   var txt = 'Hello, I am Jeffrey Brown. I design and create efficient software and websites for modern business needs. ';
   var speed = 30;
   
+
+
+
   function typeWriter() {
     if (i < txt.length) {
       document.getElementById("firstText").innerHTML += txt.charAt(i);
@@ -83,10 +86,13 @@ $(document).ready(function () {
   });
   $(".btn6").click(function btn5() {
     $(".sidebar").hide().css("display", "none");
-    cl("btn6");
+    // $(".btn6").hide()
+    // $(".btn7").show()
+    cl("hide sidebar btn6");
   });
   $(".btn7").click(function btn5() {
     $(".sidebar").show();
+
     cl("btn7");
   });
 });
