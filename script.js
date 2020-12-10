@@ -24,13 +24,14 @@ $(document).ready(function () {
   const $home = document.getElementsByClassName("home");
   const $projects = document.getElementsByClassName("projects");
   const $contact = document.getElementsByClassName("contact");
+  const $sidebar = document.getElementsByClassName("sidebar");
 
  
   $($about).hide(); //HIDE ENTIRE DIV
   $($resume).hide();
   $($projects).hide();
   $($contact).hide().delay(200)
- 
+  $($sidebar).show()
 
   $($home).show()
   //event.currentTarget TARGET SPECIFIC ELEMENT!!!
@@ -79,5 +80,13 @@ $(document).ready(function () {
     $($projects).hide();
     $($contact).show();
     cl("btn5");
+  });
+  $(".btn6").click(function btn5() {
+    $(".sidebar").hide().css("display", "none");
+    cl("btn6");
+  });
+  $(".btn7").click(function btn5() {
+    $(".sidebar").show();
+    cl("btn7");
   });
 });
