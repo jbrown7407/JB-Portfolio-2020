@@ -18,6 +18,7 @@ img {
 }
 a {
   text-align: center;
+  color: white;
 }
 img{
   float: center;
@@ -126,8 +127,8 @@ h3 {
 
 .sidebar a {
   display: block;
-  color: black;
-  padding: 16px;
+  color: white;
+
   text-decoration: none;
 }
 
