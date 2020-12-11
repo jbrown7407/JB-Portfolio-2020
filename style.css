@@ -155,6 +155,8 @@ div.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
+  color: #1F2833;
+
 }
 
 @media screen and (max-width: 700px) {
@@ -217,6 +219,8 @@ color: black;
 #firstText {
   color:black;
   font-size: 24px;
+  margin: 0 auto;
+  margin-top: 30%;
 }
 .buttons {
   color: white;
@@ -236,10 +240,15 @@ color: black;
   -o-border-radius: 10px;
   margin-top: 20px;
   box-shadow: 2px 4px #b4b4b4;
+
 }
 .hello{
   color: black;
+  border: 1px solid black;
+  box-shadow: 2px 4px #b4b4b4;
+  padding: 15px;
 }
+
 .hello button{
   background-color: green;
   color: white;
@@ -258,5 +267,10 @@ color: black;
 }
 
 
+.container {
+  background-color: #ffffff;
+}
 
-
+.redText{
+  color: #ea3057
+}
