@@ -8,7 +8,23 @@ $(document).ready(function () {
   var i = 0;
   var txt = 'Hello, I am Jeffrey Brown. I design and create efficient software and websites for modern business needs. ';
 
-  
+  // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 
 
 
@@ -35,8 +51,8 @@ $(document).ready(function () {
   $($resume).hide();
   $($projects).hide();
   $($contact).hide().delay(200)
-  $($sidebar).show()
-  $(".content").css("margin-left", "200px")
+  $($sidebar).hide()
+  $(".content").css("margin-left", "0px")
 
   $($home).show()
   //event.currentTarget TARGET SPECIFIC ELEMENT!!!
