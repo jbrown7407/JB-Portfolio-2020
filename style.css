@@ -61,7 +61,7 @@ i:hover {
   color:blue;
 }
 h3 {
-  background-color: #ececec;
+
   color: white;
   width: 100%;
   height: 40px;
@@ -133,7 +133,7 @@ h3 {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #000000;
+  background-color: #c7c7c7;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -173,7 +173,7 @@ button:hover {
 
 div.content {
   margin-left: 200px;
-  padding: 1px 16px;
+  padding: 4px 8px;
   height: 1000px;
   color: #1F2833;
   background-color: rgb(226, 226, 226);
@@ -238,7 +238,7 @@ color: black;
 } */
 
 #firstText {
-  color:black;
+  color:white;
   font-size: 24px;
   margin: 0 auto;
   margin-top: 15%;
@@ -252,17 +252,16 @@ color: black;
   -o-border-radius: 20px;
 }
 .gridC {
-  border: 2px solid black;
+  border: 2px solid purple;
   padding: 20px;
-  border-radius: 10px;;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   margin-top: 15px;
   margin-left: 5px;
   margin-right: 5px;
-  
   background-color: #ececec;
 }
 .gridC:hover{
@@ -305,12 +304,13 @@ color: black;
   height: 30px;
   float: left;
   color: white;
-  padding: 5px;
+  padding: 10px;
   -webkit-border-radius: 6.5px;
   -moz-border-radius: 6.5px;
   -ms-border-radius: 6.5px;
   -o-border-radius: 6.5px;
   box-shadow: 1px 1px 2px #727272;
+  
 }
 
 .container {
@@ -323,24 +323,37 @@ color: black;
 h2 {
   padding: 5px;
   display: block;
+  color:
 }
 i:hover {
   color: blue;
 }
 .container-fluid {
   border: 1px solid rgb(41, 41, 41);
-  border-radius: 6px;
-  background-color: rgb(240, 240, 240);
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+  border-radius: 3px;
+  background-color: rgb(0, 0, 0);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  color: black;
 }
 .projects {
-background-color: rgb(224, 224, 224);
+
+
 
 }
 .home {
   margin-top: 20%;
   padding: 20px;
+  color:white;
+}
+.about {
+  color:white;
+}
+.contact {
+  color:white;
+}
+.container3 {
+  color:white;
 }
