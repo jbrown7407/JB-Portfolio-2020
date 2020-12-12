@@ -36,6 +36,7 @@ $(document).ready(function () {
   $($projects).hide();
   $($contact).hide().delay(200)
   $($sidebar).show()
+  $(".content").css("margin-left", "200px")
 
   $($home).show()
   //event.currentTarget TARGET SPECIFIC ELEMENT!!!
@@ -86,17 +87,18 @@ $(document).ready(function () {
     cl("btn5");
   });
   $(".btn6").click(function btn5() {
-    $(".sidebar").hide().css("display", "none");
+    $(".sidebar").hide().css("display", "none")
 
-    $(".content").css("margin-left", "0px");
+    $(".content").css("margin-left", "0px")
+
     // $(".btn6").hide()
     // $(".btn7").show()
-    cl("hide sidebar btn6");
+    cl("CLOSE sidebar btn6");
   });
   $(".btn7").click(function btn5() {
     $(".sidebar").show();
-    $(".content").css("margin-left", "200px");
-
+    $(".content").css("margin-left", "200px")
+    cl("OPEN sidebar btn6");
     
 
     cl("btn7");
