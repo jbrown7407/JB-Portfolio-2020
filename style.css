@@ -39,22 +39,27 @@ h2 {
 
   box-shadow: 2px 3px 2px #afafaf;
 }
-i {
-  color: black;
+.fa fa-bars{
   font-size: 36px;
-  border: 1px solid black;
+  margin-left: 0px;
+}
+
+i {
+  color:white;
+  font-size: 48px;
+
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   padding: 5px;
-  margin: 5px;
+ 
   float: center;
   display: inline;
   margin: 0 auto;
   padding: 5px;
-  margin-bottom: 5px;
+
   
 }
 i:hover {
@@ -241,7 +246,7 @@ color: black;
   color:white;
   font-size: 24px;
   margin: 0 auto;
-  margin-top: 15%;
+  margin-top: 0%;
 }
 .buttons {
   color: white;
@@ -297,20 +302,26 @@ color: black;
   -o-border-radius: 6.5px;
   box-shadow: .5px 1px #8d8d8d;
 }
+.btn6:hover {
+  color:greenyellow;
+}
 .btn7 {
   width: 40px;
   border-radius: 6.5px;
-  border: 3px solid red;
+  border: 3px solid green;
   height: 40px;
   float: left;
   color: white;
-  padding: 10px;
+ 
   -webkit-border-radius: 6.5px;
   -moz-border-radius: 6.5px;
   -ms-border-radius: 6.5px;
   -o-border-radius: 6.5px;
   box-shadow: 1px 1px 2px #727272;
   
+}
+.btn7:hover {
+  color:greenyellow;
 }
 
 .container {
