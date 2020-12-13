@@ -259,6 +259,7 @@ color: black;
 .gridC {
   border: 2px solid purple;
   padding: 20px;
+  width: 200px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -268,6 +269,7 @@ color: black;
   margin-left: 5px;
   margin-right: 5px;
   background-color: #ececec;
+  display: grid;
 }
 .gridC:hover{
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -350,8 +352,8 @@ i:hover {
   color: black;
 }
 .projects {
-
-
+display: inline-grid;
+width: 200px;
 
 }
 .home {
