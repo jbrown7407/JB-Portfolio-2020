@@ -70,6 +70,7 @@ function myFunction() {
     $(".projects").hide();
     $($contact).hide();
     $($sidebar).hide();
+    $(".content").css("margin-left", "0px")
     cl("btn1");
   });
   $(".btn2").click(function btn2() {
@@ -79,6 +80,7 @@ function myFunction() {
     $($projects).hide();
     $($contact).hide();
     $($sidebar).hide();
+    $(".content").css("margin-left", "0px")
     cl("btn2");
   });
   $(".btn3").click(function btn3() {
@@ -88,6 +90,7 @@ function myFunction() {
     $($projects).hide();
     $($contact).hide();
     $($sidebar).hide();
+    $(".content").css("margin-left", "0px")
     cl("btn3");
   });
   $(".btn4").click(function btn4() {
@@ -97,6 +100,7 @@ function myFunction() {
     $(".projects").show();
     $($contact).hide();
     $($sidebar).hide();
+    $(".content").css("margin-left", "0px")
     //projects
     cl("btn4");
   });
@@ -108,6 +112,7 @@ function myFunction() {
     $($contact).show();
     cl("btn5");
     $($sidebar).hide();
+    $(".content").css("margin-left", "0px")
   });
   $(".btn6").click(function btn5() {
     $(".sidebar").hide().css("display", "none")
