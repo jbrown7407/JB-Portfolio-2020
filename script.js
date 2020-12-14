@@ -58,6 +58,7 @@ var sticky = navbar.offsetTop;
   $($btn7).show()
   $($sidebar).hide()
 
+
   $($home).show()
   //event.currentTarget TARGET SPECIFIC ELEMENT!!!
   // $( "p" ).click(function( event ) {

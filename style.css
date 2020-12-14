@@ -13,7 +13,8 @@ img {
   float: center;
 }
 .contact {
-  color: black;
+  color:white;
+
 
 }
 a {
@@ -112,6 +113,20 @@ h3 {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   width: 120px;
+
+}
+.myphoto2 {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  display: block;
+  border-radius: 50%;
+  border: 3px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 280px;
 
 }
 .mySideName {
@@ -274,15 +289,17 @@ color: black;
 }
 .hello{
   color: black;
-  border: 1px solid black;
-  box-shadow: 2px 4px #b4b4b4;
+  border: 1px solid rgb(161, 161, 161);
+  box-shadow: 2px 4px #ffffff;
   padding: 15px;
+  background-color: #b4b4b4;
+  margin: 0 auto;
 }
 
 .hello button{
   background-color: green;
   color: white;
-  width: 100px;
+  width: 200px;
   float: center;
   border: 1px solid  rgb(0, 182, 0);
 }
@@ -352,7 +369,7 @@ i:hover {
 width: 200px;
 height: 1000px;
 display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+grid-template-columns: 1fr 2fr 1fr;
 
 }
 .home {
@@ -373,7 +390,7 @@ display: grid;
   color:white;
   height: 1000px;
 }
-.container3 {
+.container3 form {
   color:white;
 }
 
