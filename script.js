@@ -68,7 +68,7 @@ function myFunction() {
     $(".home").show();
     $($about).hide();
     $($resume).hide();
-    $(".projects").hide();
+    $($projects).hide();
     $($contact).hide();
     $($sidebar).hide();
     $(".content").css("margin-left", "0px")
@@ -98,7 +98,7 @@ function myFunction() {
     $(".home").hide();
     $($about).hide();
     $($resume).hide();
-    $(".projects").show();
+    $($projects).show();
     $($contact).hide();
     $($sidebar).hide();
     $(".content").css("margin-left", "0px")
@@ -116,7 +116,7 @@ function myFunction() {
     $(".content").css("margin-left", "0px")
   });
   $(".btn6").click(function btn5() {
-    $(".sidebar").hide().css("display", "none")
+    $($sidebar).hide().css("display", "none")
 
     $(".content").css("margin-left", "0px")
 
