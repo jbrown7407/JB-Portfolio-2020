@@ -45,14 +45,16 @@ function myFunction() {
   const $projects = document.getElementsByClassName("projects");
   const $contact = document.getElementsByClassName("contact");
   const $sidebar = document.getElementsByClassName("sidebar");
+  const $btn6 = document.getElementsByClassName("btn6");
+  const $btn7 = document.getElementsByClassName("btn7");
 
- 
   $($about).hide(); //HIDE ENTIRE DIV
   $($resume).hide();
   $($projects).hide();
   $($contact).hide().delay(200)
-  $($sidebar).hide()
+  // $($sidebar).show()
   $(".content").css("margin-left", "0px")
+  $($btn7).show()
 
   $($home).show()
   //event.currentTarget TARGET SPECIFIC ELEMENT!!!
@@ -67,6 +69,7 @@ function myFunction() {
     $($resume).hide();
     $(".projects").hide();
     $($contact).hide();
+    $($sidebar).hide();
     cl("btn1");
   });
   $(".btn2").click(function btn2() {
@@ -75,6 +78,7 @@ function myFunction() {
     $($resume).hide();
     $($projects).hide();
     $($contact).hide();
+    $($sidebar).hide();
     cl("btn2");
   });
   $(".btn3").click(function btn3() {
@@ -83,6 +87,7 @@ function myFunction() {
     $($resume).show();
     $($projects).hide();
     $($contact).hide();
+    $($sidebar).hide();
     cl("btn3");
   });
   $(".btn4").click(function btn4() {
@@ -91,6 +96,7 @@ function myFunction() {
     $($resume).hide();
     $(".projects").show();
     $($contact).hide();
+    $($sidebar).hide();
     //projects
     cl("btn4");
   });
@@ -101,21 +107,21 @@ function myFunction() {
     $($projects).hide();
     $($contact).show();
     cl("btn5");
+    $($sidebar).hide();
   });
   $(".btn6").click(function btn5() {
     $(".sidebar").hide().css("display", "none")
 
     $(".content").css("margin-left", "0px")
 
-    // $(".btn6").hide()
-    // $(".btn7").show()
+    
     cl("CLOSE sidebar btn6");
   });
   $(".btn7").click(function btn5() {
     $(".sidebar").show();
     $(".content").css("margin-left", "200px")
     cl("OPEN sidebar btn6");
-    
+    $($btn6).show()
 
     cl("btn7");
   });
