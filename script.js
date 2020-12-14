@@ -51,7 +51,7 @@ var sticky = navbar.offsetTop;
 
   $($about).hide(); //HIDE ENTIRE DIV
   $($resume).hide();
-  $($projects).hide();
+  $("projects").hide();
   $($contact).hide().delay(200)
   // $($sidebar).show()
   $(".content").css("margin-left", "0px")
@@ -67,7 +67,7 @@ var sticky = navbar.offsetTop;
   typeWriter()
   // replace this with react router
   $(".btn1").click(function btn1() {
-    $(".home").show();
+    $($home).show().scrollTop();
     $($about).hide();
     $($resume).hide();
     $($projects).hide();
@@ -78,7 +78,7 @@ var sticky = navbar.offsetTop;
   });
   $(".btn2").click(function btn2() {
     $(".home").hide();
-    $($about).show();
+    $($about).show().scrollTop();
     $($resume).hide();
     $($projects).hide();
     $($contact).hide();
@@ -89,7 +89,7 @@ var sticky = navbar.offsetTop;
   $(".btn3").click(function btn3() {
     $(".home").hide();
     $($about).hide();
-    $($resume).show();
+    $($resume).show().scrollTop();
     $($projects).hide();
     $($contact).hide();
     $($sidebar).hide();
@@ -100,7 +100,7 @@ var sticky = navbar.offsetTop;
     $(".home").hide();
     $($about).hide();
     $($resume).hide();
-    $($projects).show();
+    $($projects).show().scrollTop();
     $($contact).hide();
     $($sidebar).hide();
     $(".content").css("margin-left", "0px")
@@ -112,17 +112,14 @@ var sticky = navbar.offsetTop;
     $($about).hide();
     $($resume).hide();
     $($projects).hide();
-    $($contact).show();
+    $($contact).show().scrollTop();
     cl("btn5");
     $($sidebar).hide();
     $(".content").css("margin-left", "0px")
   });
   $(".btn6").click(function btn5() {
     $($sidebar).hide().css("display", "none")
-
     $(".content").css("margin-left", "0px")
-
-    
     cl("CLOSE sidebar btn6");
   });
   $(".btn7").click(function btn5() {
