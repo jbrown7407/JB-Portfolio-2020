@@ -55,6 +55,7 @@ function myFunction() {
   // $($sidebar).show()
   $(".content").css("margin-left", "0px")
   $($btn7).show()
+  $($sidebar).hide()
 
   $($home).show()
   //event.currentTarget TARGET SPECIFIC ELEMENT!!!
