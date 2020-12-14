@@ -356,8 +356,7 @@ i:hover {
 }
 .container-fluid {
   border: 1px solid rgb(41, 41, 41);
-  border-radius: 3px;
-  background-color: rgb(0, 0, 0);
+  border-radius: 3px;background-image: linear-gradient(to right, rgb(133, 133, 133) , rgb(44, 44, 44));
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -524,5 +523,4 @@ grid-template-columns: 1fr 2fr 1fr;
     } to { 
         transform: rotate(360deg); 
     }
-}
 }
