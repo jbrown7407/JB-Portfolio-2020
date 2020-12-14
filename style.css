@@ -289,10 +289,10 @@ color: black;
 }
 .hello{
   color: black;
-  border: 1px solid rgb(161, 161, 161);
-  box-shadow: 2px 4px #ffffff;
+  border: 1px solid rgb(34, 34, 34);
+  box-shadow: 2px 4px #555555;
   padding: 15px;
-  background-color: #b4b4b4;
+  background-color: #adadad;
   margin: 0 auto;
 }
 
@@ -301,7 +301,7 @@ color: black;
   color: white;
   width: 200px;
   float: center;
-  border: 1px solid  rgb(0, 182, 0);
+  border: 2px solid  rgb(0, 0, 0);
 }
 .btn6 {
   width: 40px;
@@ -446,7 +446,8 @@ grid-template-columns: 1fr 2fr 1fr;
     margin-left: 5px;
     margin-right: 5px;
     background-color: #ececec;
-    display: inline-grid;
+    margin: 0 auto;
+    overflow: hidden;
   }
   .gridC:hover{
     -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
