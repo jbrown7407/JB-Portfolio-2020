@@ -131,6 +131,6 @@ var sticky = navbar.offsetTop;
     cl("OPEN sidebar btn6");
     $($btn6).show()
 
-    cl("btn7");
+    cl("OPEN SIDEBAR btn7");
   });
 });
