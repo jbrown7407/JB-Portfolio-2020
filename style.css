@@ -352,8 +352,10 @@ i:hover {
   color: black;
 }
 .projects {
-display: inline-grid;
+
 width: 200px;
+display: grid;
+  grid-template-columns: repeat(3, 1fr);
 
 }
 .home {
