@@ -345,6 +345,11 @@ i:hover {
   height: 1000px;
   text-decoration: underline;
 }
+.resume a:hover {
+  color:rgb(0, 255, 42);
+  height: 1000px;
+  text-decoration: underline;
+}
 .container3 form {
   color:white;
 }
