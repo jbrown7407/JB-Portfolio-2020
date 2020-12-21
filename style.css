@@ -340,6 +340,11 @@ i:hover {
   color:white;
   height: 1000px;
 }
+.resume a {
+  color:rgb(15, 41, 192);
+  height: 1000px;
+  text-decoration: underline;
+}
 .container3 form {
   color:white;
 }
