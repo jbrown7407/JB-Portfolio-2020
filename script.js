@@ -138,7 +138,7 @@ var sticky = navbar.offsetTop;
     $(".content").css("margin-left", "200px")
     $($btn6).show()
     cl("OPEN SIDEBAR btn7");
-    document.body.scrollTop = document.documentElement.scrollTop = 0;
+    // document.body.scrollTop = document.documentElement.scrollTop = 0;
 
   });
 });
