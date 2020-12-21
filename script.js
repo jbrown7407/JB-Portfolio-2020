@@ -127,16 +127,21 @@ var sticky = navbar.offsetTop;
    
   });
   $(".btn6").click(function btn5() {
-    $($sidebar).hide().css("display", "none").scrollTop();
-    $(".content").css("margin-left", "0px")
+    // $($sidebar).hide().css("display", "none").scrollTop();
+    $($sidebar).hide();
     cl("CLOSE sidebar btn6");
+    $($btn6).hide()
     document.body.scrollTop = document.documentElement.scrollTop = 0;
    
   });
   $(".btn7").click(function btn5() {
-    $(".sidebar").show().scrollTop();
-    $(".content").css("margin-left", "200px")
+    // $(".sidebar").show().scrollTop();
+    
+    $(".sidebar").animate({ width: 'toggle' }, 1);
+    // $(".content").animate({width:'toggle'},150)
+     
     $($btn6).show()
+    // $(".content").delay(250).css("margin-left", "200px")
     cl("OPEN SIDEBAR btn7");
     // document.body.scrollTop = document.documentElement.scrollTop = 0;
 

@@ -41,14 +41,14 @@ h2 {
   box-shadow: 2px 3px 2px #afafaf;
 }
 .fa fa-bars{
-  font-size: 36px;
-  margin-left: 0px;
+display: inline;
+font-size: 8px;
 }
 
 i {
   color:white;
   font-size: 48px;
-
+width: 100px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -61,11 +61,16 @@ i {
   margin: 0 auto;
   padding: 5px;
 
-  
 }
 i:hover {
   color:blue;
+
+
 }
+.home i {
+width: 50px;
+}
+
 h3 {
 
   color: white;
@@ -88,8 +93,6 @@ h3 {
   width: 100%;;
   height: 200;
 }
-
-
 
 .displayBox {
   border: 2px solid black;
@@ -180,8 +183,6 @@ button {
   cursor: progress
 }
 
-
-
 button:hover {
 
   border: 1px solid rgb(0, 255, 242);
@@ -196,62 +197,6 @@ div.content {
 
 }
 
-/* @media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {
-    float: left;
-  }
-  div.content {
-    margin-left: 0;
-  }
-
-  .button {
-    background-color: blue;
-    color: white;
-    display: inline;
- 
-  }
-  .myphoto {
-    display: none;
-  }
-  .mySideName {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    background-color: blue;;
-    color: white;
-    display: block;
-    width: 20px;
-    height: 25px;
-    font-size: 8px;
-    padding: 0px;
-  }
-  .myphoto {
-    display: none;
-  }
-  .mySideName {
-color: black;
-  }
-
-  button {
-    background-color: blue;;
-    color: white;
-    display: inline-flex;
-    width: 25px;
-    height: 25px;
-    font-size: 8px;
-    padding: 0px;
-    
-   
-  } 
-} */
 
 #firstText {
   color:white;
@@ -368,6 +313,9 @@ i:hover {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   color:white;
+  padding-bottom: 3px;
+  border: 3px solid black;
+
 }
 .projects {
 
@@ -439,8 +387,8 @@ i:hover {
 @media only screen and (max-width: 305px) {
   .gridC {
     border: 2px solid purple;
-    padding: 20px;
-    width: 90%;
+    padding: 10px;
+    width: 95%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
