@@ -17,7 +17,7 @@ var navbar = document.getElementById("navbar");
 // Get the offset position of the navbar
 var sticky = navbar.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  //sticky nav
   function myFunction() {
     navbar.classList.add("sticky")
   if (window.pageYOffset >= -1) {
@@ -25,10 +25,9 @@ var sticky = navbar.offsetTop;
   } else {
     navbar.classList.remove("sticky");
   }
-}
-
-
-
+  }
+  
+  //typewriter on home screen
   function typeWriter() {
     let speed = 35;
     if (i < txt.length) {
@@ -36,7 +35,6 @@ var sticky = navbar.offsetTop;
       i++;
       setTimeout(typeWriter, speed);
     }
-
   }
 
   const $tellplayer = document.getElementById("tellPlayer");
@@ -49,12 +47,13 @@ var sticky = navbar.offsetTop;
   const $btn6 = document.getElementsByClassName("btn6");
   const $btn7 = document.getElementsByClassName("btn7");
 
+  $(".content").css("margin-left", "0px")
   $($about).hide(); //HIDE ENTIRE DIV
   $($resume).hide();
   $("projects").hide();
-  $($contact).hide().delay(200)
+  $($contact).hide();
   // $($sidebar).show()
-  $(".content").css("margin-left", "0px")
+  
   $($btn7).show()
   $($sidebar).hide()
 
@@ -75,6 +74,8 @@ var sticky = navbar.offsetTop;
     $($sidebar).hide();
     $(".content").css("margin-left", "0px")
     cl("btn1");
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+
   });
   $(".btn2").click(function btn2() {
     $(".home").hide();
@@ -85,6 +86,8 @@ var sticky = navbar.offsetTop;
     $($sidebar).hide();
     $(".content").css("margin-left", "0px")
     cl("btn2");
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  
   });
   $(".btn3").click(function btn3() {
     $(".home").hide();
@@ -95,6 +98,8 @@ var sticky = navbar.offsetTop;
     $($sidebar).hide();
     $(".content").css("margin-left", "0px")
     cl("btn3");
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+
   });
   $(".btn4").click(function btn4() {
     $(".home").hide();
@@ -106,6 +111,8 @@ var sticky = navbar.offsetTop;
     $(".content").css("margin-left", "0px")
     //projects
     cl("btn4");
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+
   });
   $(".btn5").click(function btn5() {
     $(".home").hide();
@@ -116,18 +123,22 @@ var sticky = navbar.offsetTop;
     cl("btn5");
     $($sidebar).hide();
     $(".content").css("margin-left", "0px")
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+   
   });
   $(".btn6").click(function btn5() {
-    $($sidebar).hide().css("display", "none")
+    $($sidebar).hide().css("display", "none").scrollTop();
     $(".content").css("margin-left", "0px")
     cl("CLOSE sidebar btn6");
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+   
   });
   $(".btn7").click(function btn5() {
-    $(".sidebar").show();
+    $(".sidebar").show().scrollTop();
     $(".content").css("margin-left", "200px")
-    cl("OPEN sidebar btn6");
     $($btn6).show()
-
     cl("OPEN SIDEBAR btn7");
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+
   });
 });
