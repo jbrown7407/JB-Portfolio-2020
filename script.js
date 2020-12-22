@@ -6,7 +6,7 @@ $(document).ready(function () {
   let isAlive =true
   cl("Jquery Active");
   var i = 0;
-  var txt = 'Hello, I am Jeffrey Brown. I am a Software Engineer who designs and creating efficient software and websites for modern business needs. ';
+  var txt = 'Hello, I am Jeffrey Brown. I am a Software Engineer who designs and creates efficient software and websites for modern business needs. ';
 
   // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
