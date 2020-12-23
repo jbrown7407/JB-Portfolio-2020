@@ -227,10 +227,16 @@ div.content {
   margin-bottom: 15px;
   background-color: #ececec;
   display: inline-grid;
-
+  grid-row-gap: 0px;
   color: black;
   max-width: 500px;
   padding: 10px;
+  grid-template-columns:  auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+ 
+  grid-gap: 10px;
+  background-color: #ffffff;
 
 }
 .gridC:hover{
@@ -399,6 +405,7 @@ i:hover {
     border: 2px solid purple;
     padding: 10px;
     width: 95%;
+    height: 80%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
