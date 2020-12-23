@@ -63,7 +63,9 @@ var sticky = navbar.offsetTop;
   // $( "p" ).click(function( event ) {
   //   alert( event.currentTarget === this ); // true
   // });
+  
   typeWriter()
+
   // replace this with react router
   $(".btn1").click(function btn1() {
     $($home).show().scrollTop();
@@ -112,7 +114,6 @@ var sticky = navbar.offsetTop;
     //projects
     cl("btn4");
     document.body.scrollTop = document.documentElement.scrollTop = 0;
-
   });
   $(".btn5").click(function btn5() {
     $(".home").hide();
@@ -124,7 +125,6 @@ var sticky = navbar.offsetTop;
     $($sidebar).hide();
     $(".content").css("margin-left", "0px")
     document.body.scrollTop = document.documentElement.scrollTop = 0;
-   
   });
   $(".btn6").click(function btn5() {
     // $($sidebar).hide().css("display", "none").scrollTop();
@@ -132,18 +132,14 @@ var sticky = navbar.offsetTop;
     cl("CLOSE sidebar btn6");
     $($btn6).hide()
     document.body.scrollTop = document.documentElement.scrollTop = 0;
-   
   });
   $(".btn7").click(function btn5() {
     // $(".sidebar").show().scrollTop();
-    
     $(".sidebar").animate({ width: 'toggle' }, 1);
     // $(".content").animate({width:'toggle'},150)
-     
     $($btn6).show()
     // $(".content").delay(250).css("margin-left", "200px")
     cl("OPEN SIDEBAR btn7");
     // document.body.scrollTop = document.documentElement.scrollTop = 0;
-
   });
 });
