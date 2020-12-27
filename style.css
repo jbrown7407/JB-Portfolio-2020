@@ -212,6 +212,11 @@ div.content {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+.wrapper{
+  grid-template-columns:  auto auto auto;
+  grid-auto-rows: 100px;
+  grid-gap: 10px;
+}
 .gridC {
   border: 2px solid  #f2f2f2;
   padding: 20px;
@@ -231,8 +236,8 @@ div.content {
   color: black;
   max-width: 500px;
   padding: 10px;
-  grid-template-columns:  auto;
-  grid-gap: 10px;
+  /* grid-template-columns:  auto auto auto;
+  grid-gap: 10px; */
   background-color: #2196F3;
  
   grid-gap: 10px;
