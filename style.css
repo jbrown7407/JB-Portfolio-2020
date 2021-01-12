@@ -303,6 +303,11 @@ div.content {
   color:greenyellow;
 }
 
+.about h3{
+  float: center;
+  display: flex;
+}
+
 .container {
   background-color: #ffffff;
 }
