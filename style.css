@@ -270,7 +270,7 @@ div.content {
   width: 40px;
   height: 40px;
   border-radius: 6.5px;
-  border: 3px solid rgb(0, 182, 0);
+border: 1px solid rgb(0, 255, 242);
   float: right;
   color: white;
   padding: 5px;
@@ -284,20 +284,19 @@ div.content {
   color:greenyellow;
 }
 .btn7 {
-  width: 40px;
-  border-radius: 6.5px;
+  /*width: 40px;
+  */border-radius: 6.5px;
   border: 3px solid green;
-  height: 40px;
-  /* float: left; */
-  color: white;
-  /* margin-left: -40px; */
- 
-  -webkit-border-radius: 6.5px;
-  -moz-border-radius: 6.5px;
-  -ms-border-radius: 6.5px;
-  -o-border-radius: 6.5px;
+  /*height: 40px;
+  *//*float: left;
+  */color: white;
+  text-align: left;
+  /*margin-left: -40px;
+  */font-size: 18px;
+
   box-shadow: 1px 1px 2px #727272;
-  
+  bottom: 7px;
+  height: 34px;
 }
 .btn7:hover {
   color:greenyellow;
@@ -398,6 +397,10 @@ i:hover {
   margin-left:10px;
 
 
+}
+
+#iframepdf{
+ width: 100%;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -526,7 +529,7 @@ border: 1px solid black;
 .react:hover {
   background-color: rgb(46, 46, 46);
   border-radius: 15px;
-  border: 1px solid white;
+  border: 3px solid white;
   -webkit-box-shadow: 4px 4px 4px 4px rgba(110, 235, 27, 0.75);
       -moz-box-shadow:    4px 4px 4px 4px rgba(183, 189, 178, 0.75);
       box-shadow:         1px 1px 11px 0px rgba(241, 141, 171, 0.75);
