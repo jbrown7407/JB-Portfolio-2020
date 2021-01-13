@@ -412,7 +412,19 @@ i:hover {
   padding-top: 60px;
 }
 
+
+@media only screen and (min-width: 305px) {
+  .center {
+display: float;
+  }
+}
+
 @media only screen and (max-width: 305px) {
+  .center {
+    float: left;
+      }
+
+
   .gridC {
     border: 2px solid purple;
     padding: 10px;
