@@ -150,7 +150,7 @@ h3 {
   height: 100%;
   overflow: auto;
   color: white;
-  border: 1px solid white;
+  border: 1px solid rgb(0, 255, 242);
   color: white;
   /* display: none; */
 }
@@ -260,7 +260,7 @@ div.content {
 }
 
 .hello button{
-  background-color: green;
+  background-color:1px solid rgb(0, 255, 242);
   color: white;
   width: 200px;
   float: center;
@@ -286,7 +286,7 @@ border: 1px solid rgb(0, 255, 242);
 .btn7 {
   /*width: 40px;
   */border-radius: 6.5px;
-  border: 3px solid green;
+  border: 3px solid1px solid rgb(0, 255, 242);
   /*height: 40px;
   *//*float: left;
   */color: white;
